@@ -8,3 +8,7 @@ Cookie Notice Accepted is a minimalistic extension which sets cookies to tell yo
 
 - cookie_notice_accepted = true
 - cookieconsent_status = dismiss
+
+## Website
+
+https://github.com/kreutix/cookie-notice-accepted

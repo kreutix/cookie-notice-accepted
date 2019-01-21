@@ -6,8 +6,9 @@ Cookie Notice Accepted is a minimalistic extension which sets cookies to tell yo
 
 ## Supported "cookie notice accepted" cookies
 
-- cookie_notice_accepted = true
-- cookieconsent_status = dismiss
+- cookie_notice_accepted = true (https://wordpress.org/plugins/cookie-notice/)
+- cookieconsent_status = dismiss (https://cookieconsent.insites.com/)
+- cookielaw = 1 (https://github.com/valdecode/magento-cookielaw)
 
 ## Installation
 

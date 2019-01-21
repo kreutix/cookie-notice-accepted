@@ -7,6 +7,7 @@ chrome.webNavigation.onBeforeNavigate.addListener(updateCookies);
 var cookies = {
 	'cookie_notice_accepted': 'true',
 	'cookieconsent_status': 'dismiss',
+	'cookielaw': '1',
 }
 
 var enabled = false;

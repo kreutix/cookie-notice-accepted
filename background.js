@@ -6,14 +6,25 @@ chrome.webNavigation.onBeforeNavigate.addListener(updateCookies);
 
 function loadData(url, cb) {
 	var xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = cb;
+	xhr.onreadystatechange = function(event) {
+		if(xhr.readyState === 4 && xhr.status === 200 && cb) {
+			try {
+    			cb(JSON.parse(xhr.responseText));
+			} catch(e) {
+				cb(null, e);
+			}
+		}
+	}
 	xhr.open('GET', url, true);
 	xhr.send();
 }
 
 var cookies = {};
-loadData(chrome.runtime.getURL('cookies.json'), function(data) { 
-	cookies = data; 
+loadData(chrome.runtime.getURL('cookies.json'), function(data, err) { 
+	if (data) {
+		delete data._EOF;
+		cookies = data; 
+	}
 });
 
 var enabled = false;

@@ -10,6 +10,8 @@ Cookie Notice Accepted is a minimalistic extension which sets cookies to tell yo
 - cookieconsent_status = dismiss (https://cookieconsent.insites.com/)
 - cookielaw = 1 (https://github.com/valdecode/magento-cookielaw)
 
+For more cookies please see: https://raw.githubusercontent.com/kreutix/cookie-notice-accepted/master/cookies.json
+
 ## Installation
 
 To manually install Cookie Notice Accepted download all files to your computer and use your webbrowser to load it from your local machine.

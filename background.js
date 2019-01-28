@@ -4,7 +4,17 @@ chrome.runtime.onInstalled.addListener(welcomePage);
 chrome.browserAction.onClicked.addListener(toogleExtension);
 chrome.webNavigation.onBeforeNavigate.addListener(updateCookies);
 
-var cookies = require('cookies.json');
+function loadData(url, cb) {
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = cb;
+	xhr.open('GET', url, true);
+	xhr.send();
+}
+
+var cookies = {};
+loadData(chrome.runtime.getURL('cookies.json'), function(data) { 
+	cookies = data; 
+});
 
 var enabled = false;
 chrome.storage.sync.get(null, function(obj) {

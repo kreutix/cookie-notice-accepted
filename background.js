@@ -8,6 +8,10 @@ var cookies = {
 	'cookie_notice_accepted': 'true',
 	'cookieconsent_status': 'dismiss',
 	'cookielaw': '1',
+	'cookie_law_accepted': '1',
+	'a8c_cookie_banner': 'true',
+	'viewed_cookie_policy': 'yes', // wp:cookie-law-info
+	'cookieconsent_dismissed': 'yes',
 }
 
 var enabled = false;

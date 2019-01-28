@@ -20,11 +20,25 @@ function loadData(url, cb) {
 }
 
 var cookies = {};
+
+function updateCookiesJson() {
+	var url = 'https://raw.githubusercontent.com/kreutix/cookie-notice-accepted/master/cookies.json';
+	loadData(url, function(data, err) { 
+		if (data) {
+			delete data._EOF;
+			cookies = data; 
+		}
+	});
+}
+
+// load local cookies.json
 loadData(chrome.runtime.getURL('cookies.json'), function(data, err) { 
 	if (data) {
 		delete data._EOF;
 		cookies = data; 
 	}
+	// load remote cookies.json
+	updateCookiesJson();
 });
 
 var enabled = false;

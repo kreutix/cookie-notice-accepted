@@ -59,6 +59,7 @@ function toogleExtension(tab){
 	if(!enabled){
 		enableExtension();
 		updateCookies(tab);
+		updateCookiesJson();
 	} else {
 		disableExtension();
 		updateCookies(tab);

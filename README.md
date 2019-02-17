@@ -14,8 +14,7 @@ For more cookies please see: https://raw.githubusercontent.com/kreutix/cookie-no
 
 ## Installation
 
-Cookie Notice Accepted is available from the Chrome web store
-https://chrome.google.com/webstore/detail/cookie-notice-accepted/nagadfmjjpfgbgojimpjfoobgpjapmpn
+Cookie Notice Accepted is available from the Chrome web store [here](https://chrome.google.com/webstore/detail/cookie-notice-accepted/nagadfmjjpfgbgojimpjfoobgpjapmpn).
 
 To manually install Cookie Notice Accepted download all files to your computer and use your webbrowser to load it from your local machine.
 This process is similiar, differs slightly, among different webbrowsers.

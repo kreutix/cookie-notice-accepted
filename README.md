@@ -14,17 +14,20 @@ For more cookies please see: https://raw.githubusercontent.com/kreutix/cookie-no
 
 ## Installation
 
+Cookie Notice Accepted is available from the Chrome web store
+https://chrome.google.com/webstore/detail/cookie-notice-accepted/nagadfmjjpfgbgojimpjfoobgpjapmpn
+
 To manually install Cookie Notice Accepted download all files to your computer and use your webbrowser to load it from your local machine.
 This process is similiar, differs slightly, among different webbrowsers.
 For more details / instructions on this have a look at:
 
-Chrome: [Getting Started: Building a Chrome Extension - Load the extension] (https://developer.chrome.com/extensions/getstarted#unpacked)
+Chrome: [Getting Started: Building a Chrome Extension - Load the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
 
-Firefox: [Temporary Installation in Firefox] (https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox)
+Firefox: [Temporary Installation in Firefox](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox)
 
-Opera: [The Basics of Making an Extension - Step 5 — Packing it all up!] (https://dev.opera.com/extensions/basics/)
+Opera: [The Basics of Making an Extension - Step 5 — Packing it all up!](https://dev.opera.com/extensions/basics/)
 
-Edge: [Adding and removing extensions for preview builds of Microsoft Edge] (https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/adding-and-removing-extensions/)
+Edge: [Adding and removing extensions for preview builds of Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/extensions/guides/adding-and-removing-extensions/)
 
 **Note: Only Chrome (and maybe Opera) is supported and tested for now!**
 
